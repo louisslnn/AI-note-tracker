@@ -1,7 +1,7 @@
 import os
 import uuid
 
-path_to_data_folder = "/Users/louissalanon/Desktop/AI:DS projects/smart-knowledge-tracker/notes_data/"
+path_to_data_folder = "/Users/louissalanon/Desktop/AI:DS projects/smart-knowledge-tracker/AI-note-tracker/notes_data/"
 
 def save_prompt_as_text(prompt: str) -> None:
     note_id = str(uuid.uuid4())
@@ -10,5 +10,3 @@ def save_prompt_as_text(prompt: str) -> None:
 
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(prompt)
-
-#save_prompt_as_text("I got some really nice dick over here")

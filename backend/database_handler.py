@@ -73,6 +73,3 @@ def retrieve_answer_from_notes(query: str) -> str:
     chain = prompt | model
 
     return chain.invoke({"notes": notes, "question": query})
-
-# --- (5) Example usage ---
-print(retrieve_answer_from_notes("What did I learn about AI today?"))

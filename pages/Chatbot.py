@@ -1,6 +1,6 @@
 import streamlit as st
 import time
-from backend.retrieve import retrieve_answer_from_notes
+from backend.database_handler import retrieve_answer_from_notes
 
 # ---------------------
 # Animation Functions
